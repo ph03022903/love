@@ -1,0 +1,39 @@
+/* menu top */
+.App-menu-top{
+    position: relative;
+    z-index: 999;
+    
+  }
+  .App-menu-top ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  .App-menu-top ul li{
+    margin: 0 5px;
+    transition: 0.5s;
+    border-bottom: 1px solid transparent;
+    border-radius: 0 0 3px 3px;
+  }
+  .App-menu-top ul li:hover{
+    background-image: url(../../imgs/tim.png);
+    background-repeat: no-repeat;
+    background-size:40%;
+    background-position: center;
+    
+  }
+  .App-menu-top ul li a{
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s;
+    padding: 5px 10px;
+    text-transform: capitalize;
+  }
+  .App-menu-top ul li.is-active,.App-menu-top ul li:hover{
+    border-bottom: 1px solid #FFC3C3;
+  }
+  .App-menu-top ul li.is-active a,.App-menu-top ul li:hover a{
+    color: #FFC3C3;
+  }
